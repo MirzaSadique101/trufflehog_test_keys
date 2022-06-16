@@ -1,6 +1,1 @@
-AWS:
-AWS Key:
-[default]
-aws_access_key_id = ***REMOVED-AWS-KEY***
-aws_secret_access_key = ***REMOVED-SECRET***
-output = json
+woops!

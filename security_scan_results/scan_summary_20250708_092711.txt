@@ -1,0 +1,19 @@
+Secret Scan Summary - Tue Jul  8 09:31:33 IST 2025
+=================================
+
+Files containing secrets:
+   7 keys
+   4 new_key
+
+Types of secrets found:
+   5 High Entropy
+   4 AWS API Key
+   1 SSH (OPENSSH) private key
+   1 Password in URL
+
+Commits containing secrets:
+0416560b1330d8ac42045813251d85c688717eaf
+0b0ec418a4504f9d27642f43e5168c558f751e91
+742a554281e85266212a6a7e4fa33b7a950ab6a6
+77b2a3e56973785a52ba4ae4b8dac61d4bac016f
+fbc14303ffbf8fb1c2c1914e8dda7d0121633aca

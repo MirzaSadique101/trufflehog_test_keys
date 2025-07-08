@@ -20,12 +20,13 @@ jobs:
 
     - name: Check if BASE and HEAD commits are the same
       run: |
-        if [ "$BASE" = "$HEAD" ]; then
+        if [ "${{ github.event.before }}" = "${{ github.sha }}" ]; then
           echo "BASE and HEAD commits are the same. Skipping TruffleHog scan."
           exit 0
         fi
     
     - name: TruffleHog OSS
+      if: ${{ github.event.before != github.sha }}
       uses: trufflesecurity/trufflehog@main
       with:
         path: ./

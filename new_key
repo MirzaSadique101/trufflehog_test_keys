@@ -1,5 +1,5 @@
 [default] 
-aws_access_key_id = ***REMOVED-AWS-KEY***Q
-aws_secret_access_key = ***REMOVED-SECRET***
+aws_access_key_id = QWHDBDG5hDHDHXNXJHSD
+aws_secret_access_key = SHJDNCNC56787DNDJSND88356DNDNC
 output = json
 region = us-east-2
